@@ -39,3 +39,10 @@ body {
 .links a:hover{
     color:#115173
 }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
