@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
 </head>
+
 <body>
-    <h1>Portfolio</h1>
-    <p>Here are some of the past projects that I helped worked on: </p>
-    <h2>Fall 2018: ACM Social Media Software</h2>
-    <img src="images/ACMLogo.png" alt="ACM Logo">
-    <h2>Summer 2018: Pizza Ordering System</h2>
-    
+    <button onclick="goBack()" class="btn btn-secondary">Back</button>
+    <h1 align="center">Portfolio</h1>
+    <p align="center">Here are some of the past projects that I worked on: </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <h2>Fall 2018: <br>ACM Social Media Software</h2>
+                <img src="images/ACMLogo.png" alt="ACM Logo" width="200" height="200">
+                <a href="https://github.com/PranilDahal/SocialMediaApp"><br>See project.</a>
+                <p>In Fall 2018, I helped work on the ACM Social Media Software project. There were
+                    30 students who worked on it. The project allows users to create accounts and
+                    share updates with each other. By using HTML, CSS, and JavaScript I helped create
+                    the sign up page. I made sure that all user sign up information, such as phone
+                    number and password, were in the correct format and length.
+                </p>
+            </div>
+            <div class="col-sm">
+                <h2>August 2018: <br>Pizza Ordering System</h2>
+                <img src="images/pizza.jpg" alt="Pizza Logo" width="200" height="200">
+                <a href="https://github.com/dtang9/pizza-ordering-system"><br>See project</a>
+                <p>In August 2018, I started on my first personal project. Using JavaFX, which I recently
+                    learned from one of my programming classes, I created an application that allows users to
+                    fill in their contact information. Then they can customize their pizza order with toppings,
+                    the number of pizzas to order, and display the cost.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="portfolio.js"></script>
 </body>
+
 </html>

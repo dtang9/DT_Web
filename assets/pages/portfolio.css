@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    background-color: lightgray;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.links li {
+    list-style-type: none;
+    display:inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+}
+
+.links a:hover{
+    color:#115173
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
